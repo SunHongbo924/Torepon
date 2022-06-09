@@ -1,0 +1,22 @@
+
+・利用環境　
+    ⇒　PC（時間があればレスポンシブでスマホ）
+
+・使用言語、プラットフォーム
+    ⇒　HTML/CSS、php、javascript
+
+・使用データーベース
+    ⇒　Amazon DynamoDB（常に無料　25GB）
+
+・使用クラウドサービス
+    ⇒ AWS
+        AWS Amplify
+        Amazon API Gateway
+        AWS Lambda
+        Amazon DynamoDB
+
+・共有方法
+　  ⇒ github
+
+
+
