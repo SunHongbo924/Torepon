@@ -1,6 +1,10 @@
 # Torepon
 このリポジトリは、PBL2_Gで使用するコードの共有、統合に使用するものです。
 
+## Notes
+ 各々での作業は、自身の名前がついたブランチでの作業をお願いします。
+ Integrationブランチは統合ファイルとなりますので、担当者以外の更新はおやめ下さい。
+
 ## Dependency
 使用言語:HTML,PHP,CSS,JavaScript,SQL
 
