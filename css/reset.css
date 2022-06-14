@@ -36,6 +36,7 @@ html:focus-within {
 }
 html {
   font-size: 10px;
+  background-color: #f2f2f2;
 }
 
 /* Set core body defaults */
@@ -56,6 +57,9 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+img {
+  vertical-align: bottom;
 }
 
 /* Inherit fonts for inputs and buttons */
