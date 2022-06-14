@@ -1,192 +1,283 @@
 /*ヘッダー、フッター、ハンバーガー、広告*/
 
+
 /**********************************/
+
+
 /*              base             */
+
+
 /*********************************/
 
 .main-side-content {
-  display: grid;
-  padding-top: 70px; /*ヘッダー分の空白*/
-  grid-template-columns: 1fr 300px;
-}
-.main-content {
-  padding: 20px 10px;
+    display: grid;
+    padding-top: 70px;
+    /*ヘッダー分の空白*/
+    grid-template-columns: 1fr 300px;
 }
 
+.main-content {
+    padding: 20px 10px;
+}
+
+
 /**********************************/
+
+
 /*            ヘッダー            */
+
+
 /*********************************/
 
 .header {
-  width: 100%;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #000;
 }
+
 .header-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 .header-innder {
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-form {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .header-logo {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
+
 .header-logo a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
+
 .header-logo img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: gray;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: gray;
 }
+
 .header-select {
-  padding: 8px;
-  margin-right: 20px;
+    padding: 8px;
+    margin-right: 20px;
 }
+
 .index-text {
-  padding: 8px;
-  width: 300px;
+    padding: 8px;
+    width: 300px;
 }
+
 .header-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
+
 .header-item {
-  margin-right: 20px;
+    margin-right: 20px;
 }
+
 .news-btn {
-  cursor: pointer;
-  padding: 3px 6px;
-  background-color: #fff;
-  border: 1px solid #000;
+    cursor: pointer;
+    padding: 3px 6px;
+    background-color: #fff;
+    border: 1px solid #000;
 }
+
 .icon-wrapper a {
-  text-decoration: none;
-  display: block;
-  color: gray;
+    text-decoration: none;
+    display: block;
+    color: gray;
 }
+
 .icon-wrapper i {
-  display: block;
+    display: block;
 }
 
 button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-  appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
 }
+
 .burger-btn {
-  display: block;
+    display: block;
 }
+
 .burger-btn .bar {
-  display: block;
-  height: 4px;
-  width: 30px;
-  background-color: #000;
-  transition: 0.3s;
-  border-radius: 5px;
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: #000;
+    transition: 0.3s;
+    border-radius: 5px;
 }
+
 .bar_top,
 .bar_mid {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
 .burger-btn.cross .bar_top {
-  transform: rotate(45deg) translate(6px, 6px);
-  transition: 0.3s;
+    transform: rotate(45deg) translate(6px, 6px);
+    transition: 0.3s;
 }
+
 .burger-btn.cross .bar_mid {
-  opacity: 0;
-  transition: 0.3s;
+    opacity: 0;
+    transition: 0.3s;
 }
+
 .burger-btn.cross .bar_bottom {
-  transform: rotate(-45deg) translate(6px, -6px);
-  transition: 0.3s;
+    transform: rotate(-45deg) translate(6px, -6px);
+    transition: 0.3s;
 }
+
 .header-search-icon {
-  position: absolute;
-  right: 2%;
+    position: absolute;
+    right: 2%;
 }
+
+
 /**********************************/
+
+
 /*            広告                */
+
+
 /*********************************/
 
 .side-content {
-  min-height: 100%;
-  padding: 0 10px;
-  border-left: 1px solid #000;
-}
-.ad-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.ad-item {
-  margin-top: 30px;
-}
-.ad-item img {
-  width: 250px;
-  height: 150px;
-  margin: 0 auto;
-  border: 1px solid #000;
-}
-.ad-item:last-of-type {
-  margin-bottom: 30px;
+    min-height: 100%;
+    padding: 0 10px;
+    border-left: 1px solid #000;
 }
 
+.ad-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ad-item {
+    margin-top: 30px;
+}
+
+.ad-item img {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.ad-item:last-of-type {
+    margin-bottom: 30px;
+}
+
+
 /**********************************/
+
+
 /*         ハンバーガー            */
+
+
 /*********************************/
+
 .none {
-  display: none;
+    display: none;
 }
+
 .humburger-nav {
-  border-left: 1px solid #000;
-  background-color: #f2f2f2;
-  position: fixed;
-  text-align: center;
-  right: 0;
-  width: 300px;
-  height: 100vh;
+    border-left: 1px solid #000;
+    background-color: #f2f2f2;
+    position: fixed;
+    text-align: center;
+    right: 0;
+    width: 300px;
+    height: 100vh;
 }
+
 .nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
 .nav-item {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .nav-item a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
+
 .nav-item a:hover {
-  opacity: 0.7;
+    opacity: 0.7;
+}
+
+
+/**********************************/
+
+
+/*         メインコンテンツ         */
+
+
+/*********************************/
+
+.main-content {}
+
+
+/*人気タグ*/
+
+.PopularTags ui {
+    width: 100%;
+}
+
+.PopularTags li {
+    display: inline;
+    padding: 10px;
+    border: 1px solid#000;
+}
+
+
+/*おすすめアイテム*/
+
+.RecommendedItems {
+    width: 100%;
+    height: 170px;
+}
+
+.RecommendedItems iframe {
+    width: 100%;
+    height: 300%;
+    transform: scale(100%);
+    border: #fff;
 }
