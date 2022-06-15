@@ -12,9 +12,17 @@
         <div class="header">
             <img src="logo.png" alt="" class="header__logo">
             <nav>
-              <div class="header_search">
+            <div class="header_search">
+              <select size="1" name="select">
+                <option hidden>絞り込み選択</option>
+                <option value="キーワード">キーワード</option>
+                <option value="メーカー">メーカー</option>
+                <option value="シリーズ">シリーズ</option>
+                <option value="キャラクター名">キャラクター名</option>
+                <option value="タグ">タグ</option>
+              </select>
                 <input type="search" name="search" placeholder="検索キーワードを入力してください">
-                <input type="submit" name="submit" value="検索">
+                <input type="submit" class="button" title="検索" value="検索" formaction="" />
               </div>
             </nav>
         </div>
@@ -32,12 +40,10 @@
                 <li><a href="">お気に入りリスト</a></li>
                 <li><a href="">チケット確認</a></li>
                 <li><a href="">ログイン</a></li>
-
             </ul>
         </div>
     </div>
     </header>
-
 
       <body>
         <h2>ここから内容</h2>

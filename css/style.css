@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 #menu-btn {
     position: fixed;
     cursor: pointer;
@@ -10,7 +15,7 @@
     align-items: center;
     z-index: 90;
     background-color: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(46, 15, 13, 1);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 25%;
 }
 #menu-btn span,
@@ -21,7 +26,7 @@
     height: 3px;
     width: 25px;
     border-radius: 3px;
-    background-color: rgba(46, 15, 13, 1);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     transition: all 0.5s;
 }
@@ -43,7 +48,7 @@
     transform: rotate(-45deg);
 }
 #menu-btn-check:checked ~ #menu-content {
-    left: 70%;
+    left: 80%;
 }
 #menu-btn-check {
     display: none;
@@ -106,7 +111,7 @@
     display: flex;
     justify-content: space-between;
     /* フォントや色の設定 */
-    height: 70px;
+    height: 80px;
     font-size: 18px;
     background-color:rgb(255, 169, 170);
 }
@@ -120,21 +125,32 @@
     right: 50px;
 }
 
+.header_search select{
+    display:inline-block;
+    position: relative;
+	width:130px;/*←横幅*/
+	height:30px;/*←高さ幅*/
+    border:1px solid rgb(0, 0, 0);/*←枠線の指定*/
+	background:#ffffff;/*←背景色の指定*/
+    margin: 5% 0% 0% -90%;
+}
+
 .header_search input[type="search"] {
 	display:inline-block;
+    position: relative;
 	width:250px;/*←横幅*/
 	height:30px;/*←高さ幅*/
 	border:1px solid rgb(0, 0, 0);/*←枠線の指定*/
 	background:#ffffff;/*←背景色の指定*/
-	margin-left:-150%;
-    margin-top: 7%;
-
+    margin-left:5% 0%;
 }
 
 .header_search input[type="submit"]{
     display:inline-block;
+    position: relative;
     width:45px;/*←横幅*/
 	height:30px;/*←高さ幅*/
     border:1px solid rgb(0, 0, 0);/*←枠線の指定*/
 	background:#ffffff;/*←背景色の指定*/
+    margin:5% 0%;
 }
