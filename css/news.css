@@ -1,0 +1,38 @@
+.ttl-text {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.news-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.news-inner {
+  width: 100%;
+  padding: 0 10px;
+}
+.news-list {
+  list-style: none;
+}
+.news-item {
+  position: relative;
+  border-top: 1px solid #000;
+}
+.news-item:last-of-type {
+  border-bottom: 1px solid #000;
+  margin-bottom: 30px;
+}
+.news-item a {
+  display: block;
+  padding: 30px 10px;
+  text-decoration: none;
+  color: #000;
+}
+.date {
+  font-size: 1.4rem;
+  color: #80868b;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
