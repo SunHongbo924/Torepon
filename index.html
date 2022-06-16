@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/95076eb005.js" crossorigin="anonymous"></script>
+
+    <title>home</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-innder">
+                <h1 class="header-logo">
+                    <a href="./index.html"><img src="" alt="L" /></a>
+                </h1>
+                <form action="./" method="post" class="header-form">
+                    <select name="select" class="header-select">
+                        <option hidden>絞り込み検索</option>
+                        <option value="title">ガチャタイトル</option>
+                        <option value="character">キャラクター名</option>
+                        <option value="gensaku">原作</option>
+                        <option value="maker">メーカー</option>
+                        <option value="tag">タグ</option>
+                    </select>
+                    <input type="text" placeholder="何かお探しですか？" class="index-text" /><span class="header-search-icon"><i class="fa-solid fa-magnifying-glass fa-lg"></i
+            ></span>
+                </form>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <input type="button" value="お知らせ" class="news-btn" />
+                    </li>
+                    <li class="header-item">
+                        <div class="icon-wrapper">
+                            <a href="./"><i class="fa-solid fa-circle-user fa-2x"></i></i></a>
+                        </div>
+                    </li>
+                    <button class="burger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+            </button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-side-content">
+        <!-- mainコンテンツ -->
+        <section class="main-content">
+            <!--人気タグ-->
+            <div class="PopularTags">
+                <h1>人気</h1>
+                <ul class="Tags">
+                    <li class="GenreTag1"><a hreF="./">ジャンル1</a></li>
+                    <li class="GenreTag2"><a hreF="./">ジャンル2</a></li>
+                    <li class="GenreTag3"><a hreF="./">ジャンル3</a></li>
+                    <li class="GenreTag4"><a hreF="./">ジャンル4</a></li>
+                </ul>
+            </div>
+            <!--おすすめアイテム カルーセルバナー-->
+            <div class="RecommendedItems">
+                <iframe src="./Carousel_tests/carousel_test.html"></iframe>
+            </div>
+            <!-- /mainコンテンツ -->
+        </section>
+        <aside class="side-content">
+            <!-- 広告コンテンツ -->
+            <nav class="humburger-nav none">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./">HOME</a></li>
+                    <li class="nav-item"><a href="./">プロフィール</a></li>
+                    <li class="nav-item"><a href="./">出品リスト</a></li>
+                    <li class="nav-item"><a href="./">お気に入りリスト</a></li>
+                    <li class="nav-item"><a href="./">チケット確認</a></li>
+                    <li class="nav-item"><a href="./">ログイン</a></li>
+                </ul>
+            </nav>
+            <ul class="ad-list">
+                <li class="ad-item"><img src="" alt=""></li>
+                <li class="ad-item"><img src="" alt=""></li>
+                <li class="ad-item"><img src="" alt=""></li>
+            </ul>
+            <!-- /広告コンテンツ -->
+        </aside>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="footer-inner">
+            <p class="copy-text">&copy;PBL2_G班</p>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
