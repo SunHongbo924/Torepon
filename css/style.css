@@ -1,9 +1,7 @@
 /*ヘッダー、フッター、ハンバーガー、広告*/
 
 /**********************************/
-
 /*              base             */
-
 /*********************************/
 
 .main-side-content {
@@ -15,12 +13,11 @@
 
 .main-content {
   padding: 20px 10px;
+  background-color: #fff;
 }
 
 /**********************************/
-
 /*            ヘッダー            */
-
 /*********************************/
 
 .header {
@@ -29,8 +26,8 @@
   z-index: 999;
   top: 0;
   left: 0;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #000;
+  background-color: #ffc0c0;
+  border-bottom: 1px solid #b7b7b7;
 }
 
 .header-wrapper {
@@ -76,6 +73,7 @@
   padding: 8px;
   margin-right: 20px;
 }
+
 .header-select:focus {
   box-shadow: 0 0 5px 0 rgb(237, 117, 101);
   border: 2px solid #fff !important;
@@ -92,7 +90,6 @@
   border: 2px solid #fff !important;
   outline: 0;
 }
-
 .header-list {
   list-style: none;
   margin: 0;
@@ -107,14 +104,10 @@
 }
 
 .news-btn {
-  text-decoration: none;
-  color: #000;
-  background-color: #fff;
+  cursor: pointer;
   padding: 3px 6px;
+  background-color: #fff;
   border: 1px solid #000;
-}
-.news-btn:hover {
-  opacity: 0.7;
 }
 
 .icon-wrapper a {
@@ -175,15 +168,14 @@ button {
 }
 
 /**********************************/
-
 /*            広告                */
-
 /*********************************/
 
 .side-content {
   min-height: 100%;
   padding: 0 10px;
   border-left: 1px solid #000;
+  background-color: #fff;
 }
 
 .ad-list {
@@ -208,11 +200,8 @@ button {
 }
 
 /**********************************/
-
 /*         ハンバーガー            */
-
 /*********************************/
-
 .humburger-nav {
   border-left: 1px solid #000;
   background-color: #f2f2f2;
@@ -243,10 +232,32 @@ button {
 }
 
 /**********************************/
+/*           フッター             */
+/*********************************/
+.footer {
+  color: #f2f2f2;
+  border-top: 1px solid #000;
+  background-color: gray;
+}
+.footer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-inner {
+  text-align: center;
+}
+.copy-text {
+  padding: 20px 0;
+}
+
+/**********************************/
 
 /*         メインコンテンツ         */
 
 /*********************************/
+
+.main-content {
+}
 
 /*人気タグ*/
 
