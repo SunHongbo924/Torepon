@@ -1,6 +1,6 @@
 //ハンバーガーメニュー
 $(".burger-btn").on("click", function () {
-  $(".humburger-nav").toggleClass("none");
+  $(".humburger-nav").toggleClass("active");
   $(this).toggleClass("cross");
 });
 
