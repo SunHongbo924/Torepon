@@ -269,7 +269,7 @@ button {
   font-size: 35px;
 }
 
-.PopularTags ui {
+.PopularTags ul {
   width: 100%;
 }
 
@@ -280,6 +280,10 @@ button {
   border: 1px solid#b7b7b7;
   background-color: rgb(255, 243, 165);
   border-radius: 5px;
+}
+.PopularTags a {
+  text-decoration: none;
+  color: black;
 }
 
 /*おすすめアイテム*/
