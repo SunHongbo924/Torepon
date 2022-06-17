@@ -75,7 +75,7 @@
 }
 
 .header-select:focus {
-  box-shadow: 0 0 5px 0 rgb(237, 117, 101);
+  box-shadow: 0 0 5px 0 #ef5923;
   border: 2px solid #fff !important;
   transition: 0.3s;
   outline: 0;
@@ -85,7 +85,7 @@
   width: 300px;
 }
 .index-text:focus {
-  box-shadow: 0 0 5px 0 rgb(237, 117, 101);
+  box-shadow: 0 0 5px 0 #ef5923;
   transition: 0.3s;
   border: 2px solid #fff !important;
   outline: 0;
@@ -104,7 +104,8 @@
 }
 
 .news-btn {
-  cursor: pointer;
+  text-decoration: none;
+  color: #000;
   padding: 3px 6px;
   background-color: #fff;
   border: 1px solid #000;
