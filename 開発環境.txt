@@ -1,0 +1,47 @@
+
+・利用環境　
+    ⇒　PC（時間があればレスポンシブでスマホ）
+
+・使用言語、プラットフォーム
+    ⇒　HTML/CSS、php、javascript
+
+・使用データーベース
+    ⇒　Amazon DynamoDB（常に無料　25GB）
+
+・使用クラウドサービス
+    ⇒ AWS
+        AWS Amplify
+        Amazon API Gateway
+        AWS Lambda
+        Amazon DynamoDB
+
+・共有方法
+　  ⇒ github
+
+・デザイン統一
+
+背景 :　白　	カラーコード:#f2f2f2
+メインカラー :
+サブカラー :
+アクセントカラー :
+
+font-family :
+
+font-size :1.6rem (htmlタグに10px指定しbodyタグに1.6rem指定することで16pxになる)
+スマホ:1.4rem
+
+リセットcss:　A Modern CSS Reset
+
+「ファイル名」
+
+ホーム画面  ⇒  index.html
+ログイン画面　⇒  login.html
+お知らせ画面　⇒  news.html
+プロフィール画面　⇒  profile.html
+お気に入りリスト　⇒　fav-list.html
+出品リスト　⇒　ex-list.html
+チケット確認　⇒　ticket-donfirm.html
+
+
+
+
