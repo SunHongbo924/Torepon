@@ -1,0 +1,19 @@
+.profile_pic {
+    width: 100px;
+    height: 100px;
+  }
+
+.profile-innder {
+    width: 150%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* アイコン */
+.square_box {
+  width: 30vw;
+  height: 30vw;
+  background: grey;
+}

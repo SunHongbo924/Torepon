@@ -60,8 +60,8 @@
         <!-- mainコンテンツ -->
         <div>
           <h2>
-              <p style="text-align:right">ユーザー名 　：　テストタロウ　　　　</p>
-              <p style="text-align:right">ユーザーID　：　テストしたろう　　　</p>
+              <p style="text-align:right">ユーザー名　 ：　<?php $user_name ?></p>
+              <p style="text-align:right">ユーザーID　：　<?php $user_id ?></p>
           </h2>
         </div>
 
