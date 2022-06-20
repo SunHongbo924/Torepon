@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--参考サイト https://pengi-n.co.jp/blog/carousel/#i-7 -->
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./carousel_test.css" />
+
+</head>
+
+<body>
+    <div class="carousel">
+        <ul class="carousel-area">
+            <!-- 意味的に画像はimgタグで配置してるが、CSSで非表示にする。 -->
+            <li class="carousel-list"><img class="carousel-img" src="./Test_images/T_img1.jpg" alt="ハムスターの画像"></li>
+            <li class="carousel-list"><img class="carousel-img" src="./Test_images/T_img2.jpg" alt="羊の画像"></li>
+            <li class="carousel-list"><img class="carousel-img" src="./Test_images/T_img3.jpg" alt="亀の画像"></li>
+            <li class="carousel-list"><img class="carousel-img" src="./Test_images/T_img4.jpg" alt="鳥の画像"></li>
+            <li class="carousel-list"><img class="carousel-img" src="./Test_images/T_img5.jpg" alt="ライオンの画像"></li>
+        </ul>
+        <div class="arow-wrap">
+            <div class="arrow-left">
+                <button class="arrow-btn js-btn-back" type="button"></button>
+            </div>
+            <div class="arrow-right">
+                <button class="arrow-btn js-btn-next" type="button"></button>
+            </div>
+        </div>
+        <!--
+        <div class="pagination">
+            <span class="pagination-circle target"></span>
+            <span class="pagination-circle"></span>
+            <span class="pagination-circle"></span>
+            <span class="pagination-circle"></span>
+            <span class="pagination-circle"></span>
+        </div>
+    -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./carousel_test.js"></script>
+</body>
+
+</html>
