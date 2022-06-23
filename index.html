@@ -18,16 +18,19 @@
                 <h1 class="header-logo">
                     <a href="./index.html"><img src="" alt="L" /></a>
                 </h1>
-                <form action="./" method="post" class="header-form">
-                    <select name="select" class="header-select">
+                <form action="./SearchResults.html" method="post" class="header-form">
+            <select name="select" class="header-select">
               <option value="title">ガチャタイトル</option>
               <option value="character">キャラクター名</option>
               <option value="gensaku">原作</option>
               <option value="maker">メーカー</option>
               <option value="maker">タグ</option>
             </select>
-                    <input type="text" placeholder="何かお探しですか？" class="index-text" /><span class="header-search-icon"><i class="fa-solid fa-magnifying-glass fa-lg"></i
-            ></span>
+                    <input type="text" placeholder="何かお探しですか？" class="index-text" /><span class="header-search-icon">
+                        <a class="testResult" href="./SearchResults.html">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                        </a>
+                    </span>
                 </form>
                 <ul class="header-list">
                     <li class="header-item">
@@ -71,11 +74,21 @@
                 <h1>気になったアイテム</h1>
                 <iframe src="./Carousel_tests/carousel_test.html"></iframe>
             </div>
+            <!-- 商品リスト -->
+            <ul class="goods-list">
+               <a href=""><li class="goods-item">グッズ１</li></a> 
+               <a href=""><li class="goods-item">グッズ２</li></a> 
+               <a href=""><li class="goods-item">グッズ３</li></a>
+               <a href=""><li class="goods-item">グッズ４</li></a> 
+               <a href=""><li class="goods-item">グッズ５</li></a>
+               <a href=""><li class="goods-item">グッズ6</li></a>
+            </ul>
 
             <!-- /mainコンテンツ -->
         </section>
         <aside class="side-content">
-            <!-- 広告コンテンツ -->
+
+            <!-- ハンバーガー -->
             <nav class="humburger-nav">
               <ul class="nav-list">
                 <li class="nav-item"><a href="./index.html">HOME</a></li>
@@ -86,7 +99,14 @@
                 <li class="nav-item"><a href="./login.html">ログイン</a></li>
               </ul>
             </nav>
+             <!-- /ハンバーガー -->
+
+             <!-- 広告コンテンツ -->
             <ul class="ad-list">
+                <li class="ad-item"><img src="" alt=""></li>
+                <li class="ad-item"><img src="" alt=""></li>
+                <li class="ad-item"><img src="" alt=""></li>
+                <li class="ad-item"><img src="" alt=""></li>
                 <li class="ad-item"><img src="" alt=""></li>
                 <li class="ad-item"><img src="" alt=""></li>
                 <li class="ad-item"><img src="" alt=""></li>
