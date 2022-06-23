@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/ex-confirm.css" />
+    <script
+      src="https://kit.fontawesome.com/95076eb005.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>ex-confirm</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="header-innder">
+          <h1 class="header-logo">
+            <a href="./index.html"><img src="" alt="L" /></a>
+          </h1>
+          <form action="./" method="post" class="header-form">
+            <select name="select" class="header-select">
+              <option value="title">ガチャタイトル</option>
+              <option value="character">キャラクター</option>
+              <option value="gensaku">原作</option>
+              <option value="maker">メーカー</option>
+            </select>
+            <input
+              type="text"
+              placeholder="何かお探しですか？"
+              class="index-text"
+            />
+            <span class="header-search-icon">
+              <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+          </form>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./news.html" class="news-btn">お知らせ</a>
+            </li>
+            <li class="header-item">
+              <div class="icon-wrapper">
+                <a href="./profile.html"><i class="fa-solid fa-circle-user fa-2x"></i></i></a>
+              </div>
+            </li>
+            <button class="burger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+            </button>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main-side-content">
+      <section class="main-content">
+        <!-- mainコンテンツ -->
+        <div class="ex-description">
+          <div class="ex-images">
+            <img class="ex-mainimage" src="./images/keyholder_kuma.png" alt="出品画像1" >
+            <ul class="ex-subimagelist">
+              <li><img src="./images/keyholder_kuma.png" alt="出品画像2" ></li>
+              <li><img src="./images/keyholder_kuma.png" alt="出品画像3" ></li>
+            </ul>
+          </div>
+          <div class="ex-texts">
+            <h1>出品名</h1>
+            <h1>動物キーホルダー くま</h1>
+            <hr>
+            <p>出品者</p>
+            <div class="icon-wrapper" style="float:left ;">
+              <a href="./profile.html"><i class="fa-solid fa-circle-user fa-2x"></i></i></a>
+            </div>
+            <p>きんたろう</p>
+            <br>
+            <p>出品日時</p>
+            <p>2022/ 6/13~2022/7/13</p>
+            <hr>
+            <p>ガシャポンタイトル</p>
+            <p>動物キーホルダーvol.1</p>
+            <hr>
+            <p>タグ</p>
+            <ul class="ex-taglist">
+              <li>#キーホルダー</li>
+              <li>#くま</li>
+              <li>#開封済み</li>
+            </ul>
+            <hr>
+            <p> 必要チケット</p>
+            <p>動物キーホルダーvol.1チケット</p>
+            <br>
+            <p>必要枚数</p>
+            <p>1 枚</p>
+            <hr>
+            動物キーホルダーvol.1のクマのキーホルダーです。<br>
+            開封済みですが未使用で保存しているので状態は良いと思います。<br>
+            <hr>
+            <h2>取引申請</h2>
+            <textarea class="dealingrequest-textarea" type="text"></textarea>
+            <button class="dealingrequest-button">取引申請する</button>
+          </div>
+        </div>
+
+            
+        <!-- /mainコンテンツ -->
+      </section>
+      <aside class="side-content">
+        <!-- 広告コンテンツ -->
+          <nav class="humburger-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="./index.html">HOME</a></li>
+              <li class="nav-item"><a href="./profile.html">プロフィール</a></li>
+              <li class="nav-item"><a href="./ex-list.html">出品リスト</a></li>
+              <li class="nav-item"><a href="./fav-list.html">お気に入りリスト</a></li>
+              <li class="nav-item"><a href="./ticket-confirm.html">チケット確認</a></li>
+              <li class="nav-item"><a href="./login.html">ログイン</a></li>
+            </ul>
+          </nav>
+          <ul class="ad-list">
+            <li class="ad-item"><img src="" alt=""></li>
+            <li class="ad-item"><img src="" alt=""></li>
+            <li class="ad-item"><img src="" alt=""></li>
+          </ul>
+        <!-- /広告コンテンツ -->
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-inner">
+          <p class="copy-text">&copy;PBL2_G班</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/script.js"></script>
+
+  </body>
+</html>
